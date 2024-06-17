@@ -1,0 +1,145 @@
+{
+    "overrides": [
+        {
+            "wmClass": "jetbrains-toolbox",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Com.github.amezin.ddterm",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Com.github.donadigo.eddy",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Conky",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Gnome-initial-setup",
+            "mode": "float"
+        },
+        {
+            "wmClass": "gnome-calculator",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Guake",
+            "mode": "float"
+        },
+        {
+            "wmClass": "zoom",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Spotify",
+            "mode": "float"
+        },
+        {
+            "wmClass": "firefox",
+            "wmTitle": "[GNOME] (Forge) Tiling for best of both worlds : r/unixporn — Mozilla Firefox",
+            "mode": "float"
+        },
+        {
+            "wmClass": "gnome-control-center",
+            "wmTitle": "Settings",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "https://api.ubiai.tools:8443/api/document/9/ - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "http://localhost:8000/api/document/9/ - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Gedit",
+            "wmTitle": "params.ini (~/Documents/ubiai) - gedit",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "http://localhost:8000/api/stripe/get-customer-portal-url - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "http://localhost:8000/api/user - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "http://localhost:8000/api/users/update_user_release_notification/ - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "http://localhost:8000/api/users/set_annotation_tutorial - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "org.gnome.Shell.Extensions",
+            "wmTitle": "Forge Settings - 42.5-68 - Container Shortcuts",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Postman",
+            "wmTitle": "https://api.ubiai.tools:8443/api/users/set_annotation_tutorial/ - My Workspace",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Org.gnome.Nautilus",
+            "wmTitle": "Other Locations",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Gnome-tweaks",
+            "wmTitle": "GNOME Tweaks",
+            "mode": "float"
+        },
+        {
+            "wmClass": "extension-manager",
+            "wmTitle": "extension-manager",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Gnome-control-center",
+            "wmTitle": "Settings",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Evince",
+            "wmTitle": "MehdiCherifENG (7).pdf — MehdiCherifENG",
+            "mode": "float"
+        },
+        {
+            "wmClass": "Code",
+            "wmTitle": "Settings - the-sigma-male-theme - Visual Studio Code",
+            "mode": "float"
+        },
+        {
+            "wmClass": "File-roller",
+            "wmTitle": "Invoice_Extraction_It6cofY.zip ",
+            "mode": "float"
+        },
+        {
+            "wmClass": "org.gnome.Shell.Extensions",
+            "wmTitle": "Just Perfection",
+            "mode": "float"
+        },
+        {
+            "wmClass": "org.gnome.Shell.Extensions",
+            "wmTitle": "Blur my Shell",
+            "mode": "float"
+        },
+        {
+            "wmClass": "org.gnome.Shell.Extensions",
+            "wmTitle": "Forge Settings - 42.5-68 - Home",
+            "mode": "float"
+        }
+    ]
+}
