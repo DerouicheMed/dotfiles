@@ -81,6 +81,18 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# source /home/derouiche/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# # custom styles for syntax highlighter
+# typeset -A ZSH_HIGHLIGHT_STYLES
+
+# ZSH_HIGHLIGHT_STYLES[comment]='fg=blue'
+# ZSH_HIGHLIGHT_STYLES[command]='fg=magenta,bold'
+# ZSH_HIGHLIGHT_STYLES[arg]='fg=cyan'
+# ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red,bold'
+# ZSH_HIGHLIGHT_STYLES[globbing]='fg=magenta'
+# ZSH_HIGHLIGHT_STYLES[path]='fg=yellow'
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -112,4 +124,19 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+#source <(ng completion script)
+#PATH="$PATH:$(yarn global bin)"
+
+# Aliases
+alias stayactive="while true; do xdotool mousemove_relative 1 1; sleep 10; xdotool mousemove_relative -- -1 -1; sleep 10; xdotool key space; done"
+
+# Tunnel to BVIRAL scheduler service DB
+alias ssh_scheduler_db="ssh -i ~/Documents/bviral/scheduler_prod.pem -v -L 0.0.0.0:5432:bviral-misc-db.cvf3kytokktw.us-east-1.rds.amazonaws.com:5432 ubuntu@54.92.222.207"
+
+# Tunnel to BVIRAL BVRM staging DB
+alias ssh_bvrm_staging_db="ssh -i ~/Documents/bviral/bvrm_staging.pem -v -L 0.0.0.0:5432:10.0.10.130:5000 ubuntu@100.26.136.173"
+
+# Tunnel to BVIRAL BVRM prod db
+alias ssh_bvrm_prod_db="ssh -i ~/Documents/bviral/bvrm_prod.pem -v -L 0.0.0.0:5432:172.72.3.170:5000 ubuntu@18.212.145.197"
+
+export PATH="$HOME/.local/bin:$PATH"
